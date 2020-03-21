@@ -1,0 +1,132 @@
+/* --- CONTACTO --- */
+.contacto {
+	padding: 40px 0;
+	border-top: 1px solid #cbcbcb;
+	border-bottom: 1px solid #cbcbcb;
+	margin-bottom: 40px;
+}
+
+.contacto .titulo {
+	color: #003855;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.contacto .form-group {
+	margin-bottom: 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+	padding: 15px;
+	border: none;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+.formulario textarea {
+	height: 150px;
+	min-height: 150px;
+	max-height: 250px;
+}
+
+.formulario .boton {
+	background: #3da5e2;
+	border: none;
+	padding: 7px 30px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+}
+
+.formulario .boton:hover {
+	background: #1BA0EF;
+}
+
+/* --- FOOTER --- */
+.redes-sociales {
+	padding: 40px 0;
+	margin-bottom: 40px;
+}
+
+.redes-sociales .icono {
+	width: 100px;
+	height: 100px;
+	font-size: 40px;
+	line-height: 100px;
+	color: #fff;
+	text-align: center;
+	background: #cbcbcb;
+	display: inline-block;
+	margin: 0px 20px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: all .3s ease;
+}
+
+.redes-sociales .twitter {background: #1da1f2;}
+.redes-sociales .instagram {background: #833ab4;}
+.redes-sociales .facebook {background: #3b5998;}
+
+
+/* --- MEDIAQUERIES ---  */
+
+/* Dispositivo xl */
+@media screen and (max-width:1199px) {}
+
+/* Dispositivo lg */
+@media screen and (max-width:991px) {
+	.logo {
+		height: 76px;
+	}
+
+	.menu {
+		min-height: 76px;
+	}
+
+	.menu a {
+		width: 100%;
+	}
+
+	.menu a div {
+		width: 100%;
+	}
+
+	.portafolio .galeria .contenedor-imagen:nth-child(1) {order:1;}
+	.portafolio .galeria .contenedor-imagen:nth-child(2) {order:3;}
+	.portafolio .galeria .contenedor-imagen:nth-child(3) {order:6;}
+	.portafolio .galeria .contenedor-imagen:nth-child(4) {order:2;}
+	.portafolio .galeria .contenedor-imagen:nth-child(5) {order:5;}
+	.portafolio .galeria .contenedor-imagen:nth-child(6) {order:4;}
+	.portafolio .galeria .contenedor-imagen:nth-child(7) {order:7;}
+
+	.modal .modal-dialog {
+		width: 90%;
+	}
+
+	.modal .modal-dialog .modal-content img {
+		width: 100%;
+	}
+}
+
+/* Dispositivo md */
+@media screen and (max-width:767px) {}
+
+/* Dispositivo sm */
+@media screen and (max-width:575px) {
+	header {
+		margin-top: 0;
+	}
+
+	header .logo h2, 
+	header .logo p {
+		font-size: 12px;
+	}
+}
